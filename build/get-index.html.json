@@ -1,0 +1,4 @@
+{
+    "body": "<script src=\"https://s3.amazonaws.com/marko-arc-demo-bucket/d16de50eb82f962972426e84eaba1d9e226deb3f\"></script>\n<script src=\"https://s3.amazonaws.com/marko-arc-demo-bucket/41d2b7251a0629f282c31aeb28e6b75d2182d3f2\"></script>\n<script src=\"https://s3.amazonaws.com/marko-arc-demo-bucket/4e76bba2c6fd87729aa3e8a747d65b6f9228622f\"></script>\n<script>$_mod.ready();</script>",
+    "head": "<link rel=\"stylesheet\" href=\"https://s3.amazonaws.com/marko-arc-demo-bucket/0f78252cd0e2ebf67438142c7041c3c0d5b6af06\">"
+}
