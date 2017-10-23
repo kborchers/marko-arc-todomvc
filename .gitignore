@@ -8,3 +8,5 @@ dist/
 *.marko.js
 .DS_STORE
 dump.rdb
+build/
+src/**/cache/
