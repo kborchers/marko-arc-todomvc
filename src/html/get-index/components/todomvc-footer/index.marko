@@ -9,6 +9,10 @@ class {
   clearCompleted() {
     todoApp.clearCompleted();
   }
+
+  loadDemo() {
+    todoApp.fetchDemoData();
+  }
 }
 
 $ var remainingTodosWord = input.remainingCount > 1 ? 'items' : 'item';
@@ -49,4 +53,9 @@ $ var remainingTodosWord = input.remainingCount > 1 ? 'items' : 'item';
       Clear completed (${input.completedCount})
     </button>
   </if>
+  <else>
+    <button.clear-completed on-click("loadDemo")>
+      Load Demo Data
+    </button>
+  </else>
 </footer>

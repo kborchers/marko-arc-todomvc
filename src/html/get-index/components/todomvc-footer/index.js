@@ -10,6 +10,9 @@ var marko_template = module.exports = require("marko/dist/html").t(__filename),
         },
         clearCompleted: function() {
           todoApp.clearCompleted();
+        },
+        loadDemo: function() {
+          todoApp.fetchDemoData();
         }
       },
     marko_componentType = "/marko-arc-todomvc-get-index$0/components/todomvc-footer/index.marko",
@@ -63,6 +66,12 @@ function render(input, out, __component, component, state) {
       ">Clear completed (" +
       marko_escapeXml(input.completedCount) +
       ")</button>");
+  } else {
+    out.w("<button class=\"clear-completed\"" +
+      marko_attr("data-marko", {
+        onclick: __component.d("loadDemo")
+      }, false) +
+      ">Load Demo Data</button>");
   }
 
   out.w("</footer>");
